@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 800px;
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/33/30/alphabet-background-vector-3673330.jpg");
+    background-size: 100%;
+}
+
+#output {
+    background-color: #fff;
+    border: 1px dotted #0c0b0b;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 350px;
+}
+
+button {
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#button1,#button2 ,#button3 , #button4,#button5 {
+    
+    background: linear-gradient(to right, rgb(130, 86, 161), red);
+    transform: all 0.3s ease;
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+    margin-left: 80px;
+}
+
+#speakButton,
+#resetButton,
+#generateRandomStoryButton{
+    background: linear-gradient(to right, rgb(39, 136, 4), rgb(4, 223, 243));
+    transform: all 0.3s ease;
+    height: 40px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 60px;
+
+}
